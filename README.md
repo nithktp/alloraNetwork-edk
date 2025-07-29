@@ -10,9 +10,9 @@ git clone https://github.com/nithktp/alloraNetwork-edk.git
 pip install -r requirements.txt
  ```
  ## 🔧 Configuration 
- ```bash 
+  
 The config dictionary includes:
-
+```bash
 config = {
   'evaluator_id': 'allora-edk-evaluator',
   'model_endpoints': [
@@ -34,5 +34,7 @@ config = {
 ```
 ---
 ## 🧪 Example Usage Run the evaluator with a sample inference:
-``` python evaluator.py 
+
+```
+ python evaluator.py 
 ```
