@@ -1,12 +1,16 @@
 # The AlloraEvaluator is part of the [Allora Network](https://allora.network) Evaluator Development Kit (EDK). It provides a modular framework to assess machine learning model performance using decentralized, configurable evaluation criteria.-.
+
 ---
 
-## 📦 Installation
-git clone https://github.com/nithktp/alloraNetwork-edk.git
-cd allora-edk-evaluator
-pip install -r requirements.txt
 
-## 🔧 Configuration
+## 📦 Installation 
+```bash 
+git clone https://github.com/nithktp/alloraNetwork-edk.git
+ cd allora-edk-evaluator
+pip install -r requirements.txt
+ ```
+ ## 🔧 Configuration 
+ ```bash 
 The config dictionary includes:
 
 config = {
@@ -26,8 +30,9 @@ config = {
 }
 
 
----
-## 🧪 Example Usage
 
-Run the evaluator with a sample inference:
-python evaluator.py
+```
+---
+## 🧪 Example Usage Run the evaluator with a sample inference:
+``` python evaluator.py 
+```
