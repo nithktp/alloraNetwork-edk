@@ -10,8 +10,12 @@ git clone https://github.com/nithktp/alloraNetwork-edk.git
 pip install -r requirements.txt
  ```
  ## 🔧 Configuration 
-  
-The config dictionary includes:
+ The config dictionary includes:
+ 
+```bash
+nano evaluator.py
+```
+ 
 ```bash
 config = {
   'evaluator_id': 'allora-edk-evaluator',
@@ -38,3 +42,6 @@ config = {
 ```
  python evaluator.py 
 ```
+###  Output:
+
+<img width="1258" height="1009" alt="image" src="https://github.com/user-attachments/assets/a29abb17-f30e-45c7-8e18-7b9532ba7d1f" />
